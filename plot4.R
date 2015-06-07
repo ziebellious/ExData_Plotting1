@@ -60,7 +60,9 @@ png(file="plot4.png", width=504, height=504, units='px',
 par(mfrow=c(2,2))
 
 with(hpc, {
+  # Upper left plot
   plot(dt, Global_active_power, type="l", xlab=" ", ylab="Global Active Power")
+  # Upper right plot
   plot(dt, Voltage, type='l', xlab="datetime")  
 })
 
@@ -81,9 +83,10 @@ build_plot3 <- {
   })
 }
 
-
+# Lower left plot
 build_plot3
 
+# Lower right plot
 with(hpc, plot(dt, Global_reactive_power, type="l", xlab="datetime"))
 
 dev.off()
