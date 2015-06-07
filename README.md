@@ -1,5 +1,5 @@
 ## Instructions for using R scripts:
-The four R scripts can be used to generate four PNG files to the current working directory. Each script downloads the source data directly from the provided URL, so the scripts do not require the source data to be locally available.
+The four R scripts can be used to output four PNG files to the current working directory. Each script downloads the source data directly from the provided URL, so the scripts do not require the source data to be locally available.
 
 ## Original course project instructions from Roger Peng:
 ### Introduction
